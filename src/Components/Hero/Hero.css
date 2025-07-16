@@ -25,13 +25,17 @@
       margin-top: 15px;
 }
 .hero_right{
-      max-width: 50%;
+      width: 800px;
+      height: 500px;
+      overflow: hidden;
+      border-radius: 20px;
 }
 .hero_right img{
-   width: 600px;
-   height: 500px;
-   object-fit: contain;
-   margin-top: -15px;
-   
-      
+ width: 80%;
+ height: 60%;
+ padding: 100px;
+ object-fit: cover;
+ border-radius: 8rem;
+ 
+ 
 }

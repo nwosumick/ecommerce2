@@ -51,10 +51,11 @@ const Navbar = () => {
          <Link to='/cart'>
           <div className="nav_cart">
             <BiCart className='nav_icon' />
-             <BiUser className='nav_icon' />
+             
             <p className="nav_cart_amount"> { itemAmount } </p>
           </div>
          </Link>
+         <BiUser className='nav_icon2' />
          
         </div>
        </div>

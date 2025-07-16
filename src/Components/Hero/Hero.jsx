@@ -16,7 +16,7 @@ const Hero = () => {
           <p>Shop the lastest trends and classic essentials just for you</p>
           </div>
           <div className="hero_right">
-            <img src={hero_img} alt="hero-img" />
+            <img src={hero_img} alt="hero-img"/>
           </div>
         </div>
       </div>
