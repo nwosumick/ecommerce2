@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import hero_img from '../../assets/hero.jpg'
 import './Hero.css'
+import { ShopContext } from '../ShopContext/ShopContext'
 
 const Hero = () => {
+   const {heroVisible} = useContext(ShopContext);
+
+   if (!heroVisible) return null
   return (
     <div>
       <div className="hero">
