@@ -36,6 +36,28 @@
  padding: 100px;
  object-fit: cover;
  border-radius: 8rem;
- 
- 
 }
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto; /* Adjust height for smaller screens */
+    padding: 20px; /* Adjust padding */
+  }
+
+  .hero_content {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center content */
+  }
+
+  .hero_left {
+    max-width: 100%; /* Full width on smaller screens */
+    font-size: 18px; /* Adjust font size */
+    margin-top: 2rem; /* Adjust margin */
+  }
+
+  .hero_right {
+    width: 100%; 
+    font-size: 14px; 
+    margin-top: 10px; 
+  }
+  }
