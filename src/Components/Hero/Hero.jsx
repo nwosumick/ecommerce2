@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="hero_content">
           <div className="hero_left">
           <h1>Our Elegant Collections Just For You</h1>
-          <p>Shop the latets trends and classic essentials just for you</p>
+          <p>Shop the lastest trends and classic essentials just for you</p>
           </div>
           <div className="hero_right">
             <img src={hero_img} alt="hero-img" />

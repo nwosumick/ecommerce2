@@ -44,7 +44,7 @@ const Navbar = () => {
           value={query} 
           onChange={handleSearch}
           onClick={handleClick} 
-          placeholder='Serach for anything ...' />
+          placeholder='Search for anything ...' />
           <MdCancel onClick={handleCancelClick} className='cancel'/>
         </div>
         <div className="nav_icon_wrapper">

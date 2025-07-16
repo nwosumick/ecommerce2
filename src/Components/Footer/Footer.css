@@ -3,6 +3,7 @@
   color: #fff;
   padding-bottom: 5rem;    
   bottom: 0;
+  margin-bottom: -20px;
 }
 .footer_content{
     display: flex;
