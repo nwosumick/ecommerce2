@@ -38,7 +38,7 @@
  border-radius: 8rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1268px) {
   .hero {
     height: auto; /* Adjust height for smaller screens */
     padding: 20px; /* Adjust padding */
